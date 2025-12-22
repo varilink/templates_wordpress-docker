@@ -1,0 +1,17 @@
+# ------------------------------------------------------------------------------
+# docker-compose.yml
+# ------------------------------------------------------------------------------
+
+# Services configuration file used by Docker Compose.
+
+---
+
+services:
+  wordpress:
+
+#    volumes:
+#      - &theme "./wordpress/theme/:\
+#        /var/www/html/wp-content/themes/site-theme/"
+
+#  wp-cli:
+#    - *theme
